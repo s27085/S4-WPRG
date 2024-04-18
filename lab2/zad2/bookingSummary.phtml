@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Booking Summary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Konrad Fijałkowski">
+    <style>
+        section{
+            display: flex;
+            justify-content: space-evenly;
+            border: solid 2px black;
+            padding: 0.5em;
+        }
+        #col1{
+            width: 200px;
+        }
+        #col2{
+            width: 200px;
+        }
+        h1{
+            text-align: center;
+        }
+        div p:nth-child(even){
+            background-color: lightgray;
+        }
+        #col1, #col2{
+            flex: 1;
+        }
+        p{
+            padding: 0.3rem 0;
+        }
+        button{
+            padding: 0.7rem 1.5rem;
+            margin: 10px 50%;
+        }
+    </style>
+</head>
+<body>
+<h1>Booking summary</h1>
+<section>
+    <div id="col1">
+        <p>Number of people</p>
+        <?php
+        for($i = 0; $i < $people; $i++){
+            echo "<p>Person ".($i+1)."</p>";
+        }
+        ?>
+        <p>Credit card number</p>
+        <p>E-mail</p>
+        <p>Date</p>
+        <p>Time</p>
+        <p>Extra bed for child</p>
+        <p>Amenities</p>
+    </div>
+    <div id="col2">
+        <?php
+        echo "<p>$people</p>";
+        for($i = 0; $i < $people; $i++){
+            echo "<p>$fname[$i] $lname[$i] $address[$i]</p>";
+        }
+        echo "<p>$creditcard</p>";
+        echo "<p>$email</p>";
+        echo "<p>$date</p>";
+        echo "<p>$time</p>";
+        echo "<p>$bed</p>";
+        echo "<p>$amenities</p>";
+        ?>
+    </div>
+</section>
+<button onclick="window.history.back()">Back</button>
+</body>
+</html>
