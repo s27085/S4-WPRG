@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Files</title>
+    <style>
+        label, #sub {
+            display: block;
+        }
+        #sub {
+            margin-top: 3rem;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<form action="files.php" method = "get">
+    <label>
+        Path
+        <input type="text" name="path">
+    </label>
+    <label>
+        Directory name
+        <input type="text" name="dir">
+    </label>
+    <label>
+        Operation
+        <select name="op">
+            <option value="" selected>Choose operation</option>
+            <option value="create">Create</option>
+            <option value="delete">Delete</option>
+            <option value="read">Read</option>
+        </select>
+    </label>
+    <input type="submit" name="sub" id="sub">
+</form>
+</body>
+</html>
