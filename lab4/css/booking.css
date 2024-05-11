@@ -1,0 +1,21 @@
+label{
+    margin-right: 30px;
+}
+button{
+    padding: 0.7rem 1.5rem;
+}
+label, input, select {
+    margin-top: 0.5rem;
+}
+header{
+    display: flex;
+    justify-content: right;
+    padding: 1rem 0;
+    color: white;
+}
+header button {
+    margin-right: 0.3rem;
+}
+#defSubmit{
+    margin-left: 50%;
+}

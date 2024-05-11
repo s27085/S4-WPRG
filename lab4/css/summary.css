@@ -1,0 +1,39 @@
+body {
+    box-sizing: content-box;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 2px black;
+    padding: 0.5em;
+}
+p{
+    padding: 0.5rem 0;
+    margin: 0;
+}
+#col1{
+    width: 200px;
+}
+#col2{
+    width: 200px;
+}
+h1{
+    text-align: center;
+}
+div p:nth-child(even){
+    background-color: lightgray;
+}
+#col1, #col2{
+    flex: 1;
+}
+button{
+    padding: 0.7rem 1.5rem;
+    margin: 10px 0;
+}
+header{
+    display: flex;
+    justify-content: right;
+    padding: 0.5em;
+    background-color: rgb(102, 18, 166);
+    color: white;
+}

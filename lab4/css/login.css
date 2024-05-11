@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+    margin-top: 0.3rem;
+    font-size: 50px;
+    color: rgb(102, 18, 166);
+}
+form{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    margin-top: 1rem;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid rgb(102, 18, 166);
+    padding-left: 0.5rem;
+}
+button{
+    margin-top: 1rem;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid rgb(102, 18, 166);
+    background-color: rgb(102, 18, 166);
+    color: white;
+    font-size: 1rem;
+}
+
+label{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: black;
+}
