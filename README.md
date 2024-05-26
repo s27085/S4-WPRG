@@ -3,11 +3,11 @@ Utworzyć skrypt PHP:<br>
 <ol>
 <li>Nawiązać połączenie z bazą</li>
 <li>Wykonać polecenie SELECT i przećwiczyć polecenia
-<ol>
+<ul>
 <li>mysqli_fetch_row
 <li>mysqli_fetch_array
 <li>mysqli_num_rows
-</ol>
+</ul>
 <li>Wykonać polecenie INSERT INTO (by zaobserwować dodawanie przy pomocy php danych do bazy)
 <li>Załączyć skrypt PHP do repozytorium
 </ol>
