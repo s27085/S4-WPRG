@@ -17,12 +17,12 @@ echo "<br>Tables in the database[fetch_rows]: <br>";
 while($row = mysqli_fetch_row($result)){
     echo $row[0]."<br>";
 }
-$result = mysqli_query($connection, $query);
+mysqli_data_seek($result, 0);
 echo "<br>Tables in the database[fetch_rows]: <br>";
 while($row = mysqli_fetch_array($result)){
     echo $row[0]."<br>";
 }
-$result = mysqli_query($connection, $query);
+mysqli_data_seek($result, 0);
 echo "<br>Tables in the database[fetch_rows]: <br>";
 while($row = mysqli_fetch_assoc($result)){
     echo $row['Tables_in_WPRG']."<br>";
