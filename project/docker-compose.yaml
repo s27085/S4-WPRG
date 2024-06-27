@@ -1,0 +1,12 @@
+name: forum
+services:
+  forum:
+    image: postgres
+    container_name: forum
+    restart: always
+    ports:
+      - "50000:5432"
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: forum

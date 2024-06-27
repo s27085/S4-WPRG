@@ -1,0 +1,63 @@
+1. Działy:
+    1.1 Tematy:
+        TODO Wyświetlanie najnowszego tematu w każdym dziale
+        Skład:
+            TODO Tytuł
+            TODO Treść
+            TODO Data opublikowania
+            TODO Autor
+            TODO Możliwość komentowania
+            TODO Automatyczne przypisywanie daty do tematów
+    1.2 Komentarze:
+        TODO Możliwość komentowania dla zalogowanych i niezalogowanych użytkowników
+        TODO Automatyczne przypisywanie daty do komentarzy
+        TODO Odróżnienie komentarzy dodanych przez zalogowanych i niezalogowanych użytkowników
+
+2. Funkcje Użytkowników
+    Zalogowani użytkownicy:
+        TODO Możliwość dodawania tematów
+        TODO Możliwość dodawania komentarzy
+    Niezalogowani użytkownicy:
+        TODO Możliwość dodawania komentarzy po wpisaniu pseudonimu
+
+3. Profile Użytkowników
+    TODO Możliwość stworzenia profilu z podstawowymi informacjami oraz zdjęciem
+
+4. Panel Administracyjny
+    Typy kont:
+        Administrator:
+            TODO Dodawanie, usuwanie, edytowanie wpisów, tematów i działów
+        Moderator:
+            TODO Dodawanie i edytowanie tematów i komentarzy wszystkich użytkowników
+            TODO Możliwość resetowania swojego hasła
+        Użytkownik:
+            TODO Dodawanie tematów i komentarzy
+            TODO Możliwość resetowania swojego hasła
+
+5. Przechowywanie danych
+    Baza danych:
+        TODO Działy
+        TODO Tematy
+        TODO Komentarze
+        TODO Informacje o użytkownikach
+    Przechowywanie obrazków:
+        TODO Obrazki przechowywane jako pliki
+
+6. Implementacja
+    Backend:
+        TODO Stworzenie struktury bazy danych
+        TODO Implementacja logiki dodawania, edytowania, usuwania wpisów, tematów i działów
+        TODO Implementacja funkcji resetowania hasła
+    Frontend:
+        TODO Interfejs użytkownika umożliwiający dodawanie tematów i komentarzy
+        TODO Interfejs użytkownika umożliwiający stworzenie profilu i dodanie zdjęcia
+        TODO Interfejs administratora i moderatora do zarządzania forum
+        TODO Wyraźne oznaczenie komentarzy dodanych przez niezalogowanych użytkowników
+    Zabezpieczenia:
+        TODO Walidacja danych wejściowych
+        TODO Ochrona przed nieautoryzowanym dostępem do panelu administracyjnego
+
+7. Testowanie
+    TODO Testowanie funkcji dodawania, edytowania i usuwania tematów i komentarzy
+    TODO Testowanie funkcji resetowania hasła
+    TODO Testowanie poprawności wyświetlania profili użytkowników i komentarzy

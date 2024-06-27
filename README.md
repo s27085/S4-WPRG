@@ -74,3 +74,35 @@ Utworzyć skrypt PHP:<br>
 <li>Wykonać polecenie INSERT INTO (by zaobserwować dodawanie przy pomocy php danych do bazy)
 <li>Załączyć skrypt PHP do repozytorium
 </ol>
+
+
+<h2>Forum internetowe</h2>
+<p>Forum składa się z kilku działów. Pod każdym działem wyświetla się najnowszy dodany temat. 
+    Każdy temat składa się tytułu, treści, daty opublikowania oraz autora. 
+    Każdy temat można komentować i udzielać się na forum. 
+</p>
+<p>
+Do każdego komentarza oraz tematu na forum automatycznie przypisywana jest data. Zalogowani użytkownicy mają możliwość dodawania tematów, natomiast niezalogowani mogą dodawać tylko komentarze.
+</p><p>
+Niezalogowani użytkownicy są zobligowani do wpisania swojego pseudonimu, a strona w jasny sposób pozwala na odróżnienie, czy komentarz dodał użytkownik zalogowany lub niezalogowany. 
+</p>
+<p>
+Dodatkowo każdy użytkownik może stworzyć swój profil z podstawowymi informacjami oraz ze swoim zdjęciem. Na stronie dostępny jest panel administracyjny. 
+</p>
+<p>
+Istnieją różne typy konta: 
+<ol>
+<li>
+    administrator (może wszystko - dodawać, usuwać, edytować wpisy, tematy i działy)
+</li>
+<li>
+    moderator (może dodawać i edytować tematy i komentarze wszystkich użytkowników, może zresetować swoje hasło)
+</li>
+<li>
+    użytkownik (może dodawać tematy i komentarze oraz może zresetować swoje hasło). 
+</li>
+</ol>
+</p>
+<p>
+Działy, tematy, komentarze i informacje o użytkownikach powinny być przechowywane w bazie danych, a obrazki powinny być przechowywane jako pliki.
+</p>
