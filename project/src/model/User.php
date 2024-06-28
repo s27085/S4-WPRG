@@ -1,4 +1,8 @@
 <?php
+    use Doctrine\ORM\Mapping as ORM;
+
+    #[ORM\Entity]
+    #[ORM\Table(name: "users")]
     class User{
         #[ORM\Id]
         #[ORM\Column(type: 'integer')]
@@ -8,4 +12,7 @@
         private $login = "";
         #[ORM\Column(type: 'string')]
         private $password = "";
+
+        #[ORM\OneToMany(targetEntity: Comment::class, mappedBy: "comments")]
+        private $comments;
     }

@@ -2,12 +2,13 @@
     1.1 Tematy:
         TODO Wyświetlanie najnowszego tematu w każdym dziale
         Skład:
-            TODO Tytuł
-            TODO Treść
-            TODO Data opublikowania
-            TODO Autor
+            Tytuł
+            Treść
+            Data publikacji
+            Data ostatniej edycji
+            Autor
             TODO Możliwość komentowania
-            TODO Automatyczne przypisywanie daty do tematów
+             Automatyczne przypisywanie daty do tematów
     1.2 Komentarze:
         TODO Możliwość komentowania dla zalogowanych i niezalogowanych użytkowników
         TODO Automatyczne przypisywanie daty do komentarzy

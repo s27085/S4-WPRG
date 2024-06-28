@@ -10,6 +10,7 @@ $config = ORMSetup::createAttributeMetadataConfiguration(
     isDevMode: true,
 );
 
+Dotenv\Dotenv::createImmutable(__DIR__)->safeLoad();
 
 $connection = DriverManager::getConnection([
     'driver' => 'pdo_pgsql',
